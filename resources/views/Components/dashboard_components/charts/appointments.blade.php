@@ -1,0 +1,2 @@
+
+    <canvas id="appointments"></canvas>

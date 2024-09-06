@@ -1,0 +1,32 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.doctor-card{
+    min-height: 200px;
+    background-image: url("../images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+[type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
+    padding: 5px 7px !important;
+}
+.dt-search label , .dt-length label{
+    display: none;
+}
+select.dt-input {
+    border-radius: 5px !important;
+    padding: 1px 5px !important;
+    min-width: 60px;
+}
+input.dt-input {
+    border-radius: 5px !important;
+    padding: 1px 5px !important;
+}
+
+table.dataTable>thead>tr>th, table.dataTable>thead>tr>td {
+    padding: 13px !important;
+}
