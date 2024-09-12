@@ -47,9 +47,9 @@
 
                             <x-inc.input :withLabel="true" :label="__('Status')" :items="$items" type="select"
                                 class="form-control" id="status" name="status" />
-                            <x-inc.input :withLabel="true" :label="__('Name')" :items="$items" type="text"
+                            <x-inc.input :withLabel="true" :label="__('Name')" type="text"
                                 class="form-control" id="name" name="name" />
-                            <x-inc.input :withLabel="true" :label="__('Email')" :items="$items" type="email"
+                            <x-inc.input :withLabel="true" :label="__('Email')" type="email"
                                 class="form-control" id="email" name="email" />
 
                         </div>

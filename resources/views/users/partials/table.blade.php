@@ -159,7 +159,7 @@
                     1.0 lb.
                 </td>
                 <td class="flex items-center px-6 py-4 gap-2">
-                    <x-inc.table_actions :edit="route('users.edit',1)" :show="route('users.show',1)" :destroy="route('users.destroy',1)" />
+                    <x-inc.table-actions :edit="route('users.edit',1)" :show="route('users.show',1)" :destroy="route('users.destroy',1)" />
                 </td>
             </tr>
             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">

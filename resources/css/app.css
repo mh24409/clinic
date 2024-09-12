@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.doctor-card{
+.doctor-card {
     min-height: 200px;
     background-image: url("../images/bg.jpg");
     background-position: center;
@@ -11,22 +11,43 @@
     background-size: cover;
 }
 
-[type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
-    padding: 5px 7px !important;
-}
-.dt-search label , .dt-length label{
+.dt-search label,
+.dt-length label {
     display: none;
 }
+
 select.dt-input {
     border-radius: 5px !important;
     padding: 1px 5px !important;
     min-width: 60px;
 }
+
 input.dt-input {
     border-radius: 5px !important;
     padding: 1px 5px !important;
 }
 
-table.dataTable>thead>tr>th, table.dataTable>thead>tr>td {
+table.dataTable>thead>tr>th,
+table.dataTable>thead>tr>td {
     padding: 13px !important;
+}
+
+button.bg-primary:hover {
+    background-color: #34a5bc;
+}
+
+button.bg-secondary:hover {
+    background-color: #053470;
+}
+
+button.bg-accent:hover {
+    background-color: #be8a07;
+}
+
+.my-element {
+    --animate-duration: 15s !important;
+}
+
+.form-bg {
+    background-color: rgba(255, 255, 255, 0.397);
 }

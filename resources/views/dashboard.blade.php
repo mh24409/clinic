@@ -1,9 +1,7 @@
-<x-layouts.app>
+<x-layouts.app :title="__('Dashboard')" :meta_description="__('Dashboard')" :meta_keywords="__('Dashboard')" :meta_image="asset('images/logo.png')">
     @php
         $breadcrumbItems = [
-            'Dashboard' => ['link' => route('home'), 'icon' => 'fa-user'],
-            'Templates' => ['link' => route('home'), 'icon' => 'fa-user'],
-            'Flowbite' => null,
+            'Dashboard' => null,
         ];
     @endphp
     <x-inc.breadcrumb :breadcrumbItems="$breadcrumbItems" />
@@ -33,11 +31,7 @@
             <x-dashboard_components.charts.incomes />
         </div>
     </div>
-
-
-
-
-    @section('scripts')
+    @push('scripts')
         @vite('resources/js/dashboard.js')
-    @endsection
+    @endpush
 </x-layouts.app>

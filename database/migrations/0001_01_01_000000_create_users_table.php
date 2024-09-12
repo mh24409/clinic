@@ -17,6 +17,12 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('gender')->enum(['male', 'female']);
+            $table->string('honorific'); // Mr, Mrs, Miss, Dr, etc.
+            $table->string('national_id')->nullable();
+            $table->string('mobile')->unique();
+            $table->string('photo')->nullable();
+            $table->string('type')->enum(['admin', 'doctor','doctor_assistant','receptionist','super_admin']);
             $table->rememberToken();
             $table->timestamps();
         });

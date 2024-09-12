@@ -24,6 +24,9 @@ export default {
             width: {
                 'small-img': '24px',
                 'small-img-3x': '62px',
+            },
+            padding: {
+                'c-input': '5px 34px',
             }
         },
     },

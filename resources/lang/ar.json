@@ -1,0 +1,10 @@
+{
+    "please_enter_name": "الرجاء إدخال اسم",
+         "name_already_exists": "الاسم موجود بالفعل",
+        "name_is_too_long": "الاسم طويل جدا",
+        "are_you_sure": "هل أنت متأكد؟",
+        "you_wont_be_able_to_revert_this": "لن تتمكن من التراجع عن هذه التغييرات!",
+        "yes_delete_it": "نعم, حذفها!",
+        "no_cancel_it": "لا, الغاء!"
+
+}

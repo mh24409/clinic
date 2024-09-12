@@ -2,7 +2,7 @@
     <div class="px-3 py-3 lg:px-5 lg:pl-3">
         <div class="flex items-center justify-between">
             <div class="flex items-center justify-start rtl:justify-end">
-                <x-inc.sidebar_toggle_button />
+                <x-inc.sidebar-toggle-button />
                 <x-inc.header_logo />
             </div>
             <div class="flex items-center">

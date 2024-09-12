@@ -1,2 +1,1 @@
-
-    <canvas id="appointments"></canvas>
+<canvas id="appointments"></canvas>
